@@ -8,7 +8,7 @@ const SidebarSectionWrapper = styled.section(() => [
 ])
 
 const SidebarAvatar = styled.div(() => [
-    tw` max-w-full  overflow-hidden mx-auto h-[300px] flex flex-col justify-between py-2 mb-5`,
+    tw` max-w-full  overflow-hidden mx-auto h-[300px] flex flex-col justify-between py-2 my-10`,
     css`
         img{
             ${tw`h-[200px] w-[200px] object-cover rounded-full border-8 border-white shadow-base mx-auto mb-[10px]`}
@@ -17,7 +17,7 @@ const SidebarAvatar = styled.div(() => [
 ])
 
 const SidebarBody = styled.div(() => [
-    tw`text-center  h-[calc(100%-70px)] flex flex-col justify-between xl:py-[50px] py-[20px]`,
+    tw`text-center  h-[calc(100%-70px)] flex flex-col justify-between `,
     css`
         h1{
             ${tw`text-3xl font-bold uppercase mb-2`}
@@ -29,7 +29,7 @@ const SidebarBody = styled.div(() => [
 ])
 
 const SidebarMenu = styled.div(() => [
-    tw`text-center overflow-y-auto overflow-x-hidden h-[calc(100%-320px)]`,
+    tw`text-center overflow-y-auto overflow-x-hidden h-[calc(100%-380px)]`,
     css`
         ul{
             ${tw`grid gap-y-3 py-3`}
